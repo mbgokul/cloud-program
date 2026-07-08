@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cloud Lab Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h2>☁ Cloud Computing Lab Website</h2>
+<p>Static Website using GitHub Pages</p>
+</header>
+
+<div class="box">
+
+<h3>Welcome</h3>
+<p>This is a static website created for cloud computing lab experiment.</p>
+
+<img src="https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=800">
+
+<h3>Enter Your Name</h3>
+
+<input type="text" id="name">
+<button onclick="showMsg()">Submit</button>
+
+<h3 id="msg"></h3>
+
+</div>
+
+<footer>
+<p>Created by Aishwarya G</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
